@@ -1,0 +1,78 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+h1 {
+	margin: 0;
+}
+
+
+
+
+header {
+	background-color: #291a1e;
+	color: rgb(255, 255, 255);
+	padding: 20px 0 0;
+}
+
+header .container {
+	margin: auto;
+	width: 70%;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	align-items: flex-end;
+	text-align: center;
+}
+
+nav a {
+	color: rgb(238, 238, 238);
+	padding: 20px;
+	transition: ease-in 0.2s;
+}
+
+nav a:hover {
+	background-color: rgb(86, 221, 255);
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-decoration: none;
+}
+
+main {
+	margin: 0 auto 40px;
+	width: 70%;
+}
+
+footer {
+	background-color: #291a1e;
+	color: rgb(255, 255, 255);
+	margin-top: 60px;
+	padding: 20px 0;
+}
+
+footer a {
+	color: rgb(238, 238, 238);
+}
+
+footer a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 70%;
+	
+
+footer .container:last-child {
+	text-align: right;
+}
+
+
+
+
